@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 
 }
-
+/* Inicio dos Estilos do Header */
 header{
     display: flex;
     position: relative;
@@ -24,11 +24,61 @@ header img{
     margin-top: 1rem;
 }
 
-/* Estilos do Header */
+.logo{
+    margin-left: 0.7rem;
+}
+
+.logo p{
+    color: #2F8FDC;
+    font-weight: 600;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 10px;
+    color: rgb(63, 63, 63)
+}
+/* Fim dos Estilos do Header */
 
 
+/* Inicio dos Estilos do banner */
+#banner{
+
+    background-color:#2F86D6 ;
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+    align-items: center;
+    color: white;
+    
+}
 .texto-banner{
- color: rgb(30, 57, 179); 
- border: 1px solid red;
+
+    color:#fcfcfc; 
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25rem;
+    height: 20rem;
+}
+
+.texto-banner p{
+    
+    font-size: 0.9rem;
+}
+.texto-banner h2{
+    
+    margin: 1.0rem 0rem 1.0rem 0rem;
+    font-size: 22px;
+}
+
+#banner img{
+
+    border: 1px solid red;
+    width: 27rem;
+    height: 22rem;
     
 }
