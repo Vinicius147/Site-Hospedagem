@@ -40,6 +40,9 @@ nav a {
     margin-right: 10px;
     color: rgb(63, 63, 63)
 }
+ nav a:hover{
+    border-bottom:2px solid #2F8FDC;
+}
 /* Fim dos Estilos do Header */
 
 
@@ -57,12 +60,10 @@ nav a {
 .texto-banner{
 
     color:#fcfcfc; 
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 25rem;
-    height: 20rem;
+    
 }
 
 .texto-banner p{
@@ -77,8 +78,32 @@ nav a {
 
 #banner img{
 
-    border: 1px solid red;
-    width: 27rem;
-    height: 22rem;
+   
+    width: 34rem;
+    height: 27rem;
     
 }
+
+.anuncio{
+    background-color: #23303E;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+}
+
+.anuncio a{
+    background-color:#2F86D6 ;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.anuncio a:hover{
+    background-color: #2f85d6c1;
+}
+
