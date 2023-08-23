@@ -3,8 +3,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 
 }
+.limita-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
 /* Inicio dos Estilos do Header */
 header{
     display: flex;
@@ -33,29 +42,36 @@ header img{
     font-weight: 600;
     
 }
+nav{
+    position: absolute;
+    right: 0;
+}
 
 nav a {
+    font-size: 18px;
+    padding: 0px 10px;
     text-decoration: none;
     font-weight: 600;
-    margin-right: 10px;
-    color: rgb(63, 63, 63)
+    color: #233032;
 }
  nav a:hover{
-    border-bottom:2px solid #2F8FDC;
+    border-bottom:3px solid #2F8FDC;
 }
 /* Fim dos Estilos do Header */
 
 
 /* Inicio dos Estilos do banner */
-#banner{
-
+.secao-banner{
     background-color:#2F86D6 ;
+}
+ 
+#banner{
     display: flex;
-    justify-content: space-around;
     height: 30rem;
     align-items: center;
     color: white;
-    
+    justify-content: space-around;
+    position: relative;
 }
 .texto-banner{
 
@@ -63,6 +79,7 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 23rem;
     
 }
 
@@ -78,21 +95,39 @@ nav a {
 
 #banner img{
 
-   
-    width: 34rem;
-    height: 27rem;
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 23rem;
+    height: 20rem;
     
 }
 
-.anuncio{
+/* Fim dos Estilos do banner */
+
+/* Inicio dos Estilos dos anuncios */
+.secao-anuncio-1 {
     background-color: #23303E;
+}
+.secao-anuncio-2{
+    background-color: #2F86D6;
+}
+.anuncio{
     color: white;
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    position: relative;
     height: 10rem;
 }
 
+.secao-anuncio-2 div a{
+    background-color: #23303E;
+}
+
+.secao-anuncio-2 div a:hover{
+    background-color: #23303ea4;
+}
 .anuncio a{
     background-color:#2F86D6 ;
     color: white;
@@ -100,10 +135,66 @@ nav a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
-
+    position: absolute;
+    right: 0;
 }
 
 .anuncio a:hover{
     background-color: #2f85d6c1;
 }
 
+.subtitulos, informacoes h3, informacoes p {
+    
+    text-align: center;
+}
+
+/* fim dos Estilos dos anuncios */
+
+
+/* inicio dos Estilos das info */
+
+#informacoes{
+    /* position: relative; */
+    
+    /* height: 480px; */
+}
+
+
+.info-style img{
+    width: 100px;
+}
+
+#informacoes h2{
+    width: 900px;
+    font-size: 32px;
+    margin: 60px auto 60px;
+    
+}
+
+#informacoes h2 span{
+    color: #2f86d6;
+}
+
+.info-style {
+    width: 33%;
+    /* position: absolute; */
+    /* top: 0; */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2{
+    left: 400px;
+}
+.card3 {
+    right: 0;
+}
