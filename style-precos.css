@@ -15,14 +15,15 @@
 
 
 
-
-
-
 header{
+    background-color: #2F86D6;
+}
+
+.topo{
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */ 
 }
 
 
@@ -34,8 +35,9 @@ header img{
 .alfatech{
     font-size: 13px;
     display: flex;
-    margin-top: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
     align-items: center;
+    
 }
 
 .logo{
@@ -43,7 +45,7 @@ header img{
 }
 
 .logo p{
-    color: #2F8FDC;
+    color: #ffffff;
     font-weight: 600;
     
 }
@@ -57,8 +59,9 @@ nav a {
     padding: 0px 10px;
     text-decoration: none;
     font-weight: 600;
-    color: #233032;
+    color: #ffffff;
     position: relative;
+    right: 0;
 
 }
 
@@ -66,10 +69,10 @@ nav a {
     content: '';
     position: absolute;
     width: 100%;
-    height: 0.175rem;
+    height: 0.100rem;
     left: 0;
     bottom: 0;
-    background-color: #2F8FDC;
+    background-color: #ffffff;
     
     
 }
@@ -83,4 +86,97 @@ nav a {
 .border-button:hover::after{
     transform: scale(1, 1);
     
+}
+ 
+/* Estilização da tabela */
+
+table{
+    margin: 5rem 0 5rem 0;
+}
+
+table tbody td {
+
+    text-align: center;
+    padding: 10px 18px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.celula-cabeçalho{
+
+    padding: 20px;
+}
+
+.celula-cabeçalho h2 {
+    font-size: 36px;
+  }
+
+
+  .primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+  }
+
+table p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #a89f9f
+}
+
+.celula-cabeçalho, .primeira-celula{
+    background-color:  #F1F3F7;
+
+}
+
+.marcador-azul{
+    width: 20px;
+    height: 20px;
+    background-color: #2F86D6;
+    border-radius: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilização do footer */
+
+footer img{
+    width:60px;
+}
+#contato p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#contato{
+    display: flex;
+    background-color: #2F86D6;
+    text-align: center;
+}
+
+.logo-footer{
+    font-size: 14px;
+    justify-content: center;
+    margin: 40px auto 0px;
+    text-align: left;
+}
+
+.texto-footer p{
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.texto-footer span{
+    color: #2F86D6;
 }
